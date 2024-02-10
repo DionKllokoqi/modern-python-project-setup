@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "modern-python-project-setup"
+version = "0.1.0"
+description = "Template project for a modern python project."
+authors = ["Dion Kllokoqi <dion.kllokoqi@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
